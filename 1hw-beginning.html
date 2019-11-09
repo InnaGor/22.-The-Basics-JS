@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Основы JavaScript</title>
+</head>
+
+<body>
+    <script>
+        // 1. Запросите у пользователя его имя и выведите в ответ: «Привет, его имя!». почему не работает ${name}
+
+        // let name = prompt("What is your name?", "");
+        // let message = 'Hello ' + name + "!";
+        // alert(message)
+        // // 2. Запросите у пользователя год его рождения, посчитайте, сколько ему лет и выведите результат. Текущий год укажите в коде как константу.
+        // let birthData = prompt("Ваш год рождения: ", "");
+        // const currentYear = 2019;
+        // let age = currentYear - birthData;
+        // let message2 = "Вам " + age + " лет";
+        // alert(message2)
+
+        // 3. Запросите у пользователя длину стороны квадрата и выведите периметр такого квадрата.
+        // let side = prompt("Сторона квадрата: ", "");
+        // let area = +side * 2;
+        // alert(area)
+
+        // 4. Запросите у пользователя радиус окружности и выведите площадь такой окружности.
+        // let radius = prompt("Введите радиус окружности:", "");
+        // let area = radius * radius * 3.14;
+        // alert(area)
+        // 5. Запросите у пользователя расстояние в км между двумя городами 
+        // и за сколько часов он хочет добраться. Посчитайте скорость, с которой необходимо двигаться, чтобы успеть вовремя.
+
+        // let dist = prompt("сколько км между вашими городами:", "");
+        // let time = prompt("сколько времени у вас есть?:", "");
+        // let speed = dist / time;
+        // alert("Вам нужно ехать со скоростью " + speed + "км/час")
+
+        // 6. Реализуйте конвертор валют. Пользователь вводит доллары, программа переводит в евро. Курс валюты храните в константе.
+        // let dollar = prompt("сколько у вас долларов?", "");
+        // const euro = 0.88;
+        // let convert = dollar * euro;
+        // alert("У вас будет " + convert + " евро!")
+
+        // 7.Пользователь указывает объем флешки в Гб. Программа должна посчитать, сколько файлов размером в 820 Мб помещается на флешку.
+        // let Gb = prompt("Сколько Гб на вашей флешке?", "");
+        // let quantity = parseInt(Gb * 1024 / 840);
+        // alert(quantity);
+
+        // 8. Пользователь вводит сумму денег в кошельке и цену одной шоколадки. 
+        // Программа выводит, сколько шоколадок может купить пользователь, и сколько сдачи у него останется.
+
+        // let sum = prompt("How much money do you have?", "");
+        // let chocklate = prompt("What is the price of the chocklate bar?", "");
+        // let quantity = parseInt(sum / chocklate);
+        // let change = sum - chocklate * quantity;
+        // alert(`You can buy ${quantity} bars of chocklate.`)
+        // alert(` Your change is ${change} grn.`)
+
+        // 9. Запросите у пользователя трехзначное число и выведите его задом наперед. 
+        // Для решения задачи вам понадобится оператор % (остаток от деления)., num[2], num[1]
+        // let num = prompt("Type three-digit number", "");
+        // alert(num[2] + num[1] + num[0])
+
+        // Option 2
+        // let n = patseInt(promt("N = "));
+        // let s = "";
+        // while(n>0){
+        //     let m = n%10;
+        //     s = s+m;
+        //     n = (n-m)/10;
+        // }
+        // console.log(s);
+
+       // Option 3 
+        // let n = patseInt(promt("N = "));
+        // let s = "";
+        // for(i = n.length-1; i>=0; i--){
+        //     s = s+n[i];
+        // }
+        // console.log(s);
+        // 
+        // 10. Пользователь вводит сумму вклада в банк на 2 месяца, с процентной ставкой депозита 5% годовых. 
+        // Вывести сумму начисленных процентов.
+        // let amount = prompt("ваш депозит", "");
+        // let months = prompt("термин", "");
+
+        // let persents = (amount * 0.05) / 12 * months;
+        // alert(` Ваши проценты за ${months} месяцев - ${persents} грн.`)
+
+
+
+
+
+    </script>
+</body>
+
+</html>
